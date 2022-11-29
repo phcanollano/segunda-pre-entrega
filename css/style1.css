@@ -1,11 +1,15 @@
 body {
-   background-color: black;
+   background-color: rgb(0, 0, 0);
 }
+
 
 .banner {
    height: 300px;
    width: 100%;
+
 }
+
+
 
 nav {
    text-align: right;
@@ -13,8 +17,15 @@ nav {
 
 .dropdown-menu{
    background-color: black;
+   
 }
 
+.deco1{
+   text-decoration: none;
+   color: aliceblue;
+   border-left: 2px solid #ffffff;
+   padding-left: 3px;   
+}
 
 
 * {
@@ -82,17 +93,19 @@ header {
    margin-left: 6px;
 }
 
+
+
 .boxopiniones1 {
    background-color: rgba(0, 0, 0, 0);
-   width: 100%;
-   height: 70%;
    display: flex;
    flex-direction: column;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
-}
+ }
+
+
 
 .perfil {
    width: 100px;
@@ -103,7 +116,10 @@ header {
    margin-right: 3%;
    margin-top: 2%;
    margin-left: 2%;
+
 }
+
+
 
 
 .txtref {
@@ -133,9 +149,7 @@ p {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: large;
    text-align: justify;
-   
 }
-
 
    
 
@@ -173,6 +187,12 @@ p {
    justify-content: center;
    align-items: center;
 }
+
+p{
+   text-align: center;
+}
+      
+
 
 .uiama {
    background-color: rgba(0, 0, 0, 0);
@@ -272,21 +292,8 @@ p {
    flex-wrap: wrap;
 
 
-
 }
 
-
-.titulologo {
-   margin-right: 35%;
-   margin-left: 35%;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   justify-content: center;
-   align-items: center;
-}
 
 .igwhats {
    text-align: center;
@@ -319,5 +326,9 @@ p {
 
 footer {
    background-color: rgb(214, 15, 15, 0.911);
+   text-align: center;
+}
+
+.derechos{
    text-align: center;
 }
