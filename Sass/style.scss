@@ -1,15 +1,11 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
  }
- 
  
  .banner {
     height: 300px;
     width: 100%;
- 
  }
- 
- 
  
  nav {
     text-align: right;
@@ -17,15 +13,12 @@ body {
  
  .dropdown-menu {
     background-color: black;
- 
  }
- 
  
  @media (max-width: 600px) {
     .dropdown-menu {
        justify-content: center;
     }
- 
  }
  
  .deco1 {
@@ -35,7 +28,6 @@ body {
     padding-left: 3px;
  }
  
- 
  * {
     margin: 0;
     padding: 0;
@@ -44,11 +36,11 @@ body {
  }
  
  header {
-    background-color: rgb(184, 9, 9);
+    background-color: #b80909;
  }
  
  .cabecera {
-    background-color: rgb(5, 5, 5);
+    background-color: #050505;
     color: aliceblue;
     padding: 10px;
     text-align: left;
@@ -93,7 +85,6 @@ body {
     .box {
        flex-direction: column;
        width: 90%;
- 
     }
  }
  
@@ -104,7 +95,6 @@ body {
     }
  }
  
- 
  .txtref {
     font-size: x-large;
     text-align: center;
@@ -112,11 +102,9 @@ body {
     text-decoration: none;
  }
  
- 
- 
  .boxopiniones1 {
     display: flex;
-    background-color: rgb(3, 3, 3);
+    background-color: #030303;
  }
  
  .boxopiniones1 div {
@@ -131,21 +119,16 @@ body {
     }
  }
  
- 
- 
  .perfil {
     width: 100px;
     height: 100px;
     border-radius: 70px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid white;
     float: left;
     margin-right: 3%;
     margin-top: 2%;
     margin-left: 2%;
- 
  }
- 
- 
  
  .titulo {
     color: aliceblue;
@@ -155,16 +138,13 @@ body {
     margin-top: 4%;
     margin-bottom: 3%;
     font-size: 3rem;
- 
  }
  
- @media (max-width:600px) {
+ @media (max-width: 600px) {
     .titulo {
        font-size: 10px;
     }
  }
- 
- 
  
  p {
     color: antiquewhite;
@@ -172,8 +152,6 @@ body {
     font-size: large;
     text-align: justify;
  }
- 
- 
  
  * {
     margin: 0;
@@ -188,24 +166,19 @@ body {
     margin-left: 10px;
     align-items: center;
     justify-content: space-between;
- 
- 
  }
  
- 
- 
  .ordentienda {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 5px;
- 
  }
  
  .ordentienda div {
-    background-color: rgb(248, 0, 0);
+    background-color: #f80000;
     padding: 10px;
     border: 1px solid white;
     height: 250px;
@@ -213,7 +186,6 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
- 
  }
  
  @media (max-width: 600px) {
@@ -226,7 +198,6 @@ body {
     text-align: center;
  }
  
- 
  .uiama {
     background-color: black;
     width: 90%;
@@ -237,7 +208,6 @@ body {
     flex-wrap: nowrap;
     flex-wrap: wrap;
     justify-content: space-between;
-   
  }
  
  @media (max-width: 600px) {
@@ -257,18 +227,13 @@ body {
     border: 1px solid white;
     align-items: center;
     margin-left: 1%;
-  
- 
  }
  
  @media (max-width: 600px) {
     .imageuiama {
        flex-direction: column;
- 
- 
     }
  }
- 
  
  .horarios {
     height: 100%;
@@ -276,10 +241,8 @@ body {
     margin-right: 50px;
  }
  
- 
- 
  .clases {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid white;
     width: 25%;
     height: 70%;
     margin-right: 50px;
@@ -299,19 +262,46 @@ body {
     justify-content: space-between;
  }
  
+ .boxform {
+    background-color: rgb(216, 12, 12);
+    width: 45%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+ }
+ 
  
  .form {
     text-align: center;
     font-size: large;
+    
  }
  
  .txtform {
     font-size: x-large;
+  
  }
+ 
+ .btn{
+    text-decoration:none;
+ font-weight:600;
+ font-size:20px;
+ color:#ffffff;
+ padding-top:10px;
+ padding-bottom:10px;
+ padding-left:10px;
+ padding-right:10px;
+ background-color:#000000;
+ }
+ 
  
  .consulta {
     width: 370px;
     height: 150px;
+    
  }
  
  .p1 {
@@ -325,11 +315,11 @@ body {
  .map {
     margin-top: 5%;
     margin-bottom: 3%;
+    margin-right: 5%;
     display: flex;
     justify-content: center;
+ 
  }
- 
- 
  
  .p1 {
     text-align: center;
@@ -340,10 +330,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
- 
- 
  }
- 
  
  .igwhats {
     text-align: center;
@@ -375,7 +362,7 @@ body {
  }
  
  footer {
-    background-color:red;
+    background-color: red;
     text-align: center;
  }
  
