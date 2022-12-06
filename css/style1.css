@@ -15,16 +15,24 @@ nav {
    text-align: right;
 }
 
-.dropdown-menu{
+.dropdown-menu {
    background-color: black;
-   
+
 }
 
-.deco1{
+
+@media (max-width: 600px) {
+   .dropdown-menu {
+      justify-content: center;
+   }
+
+}
+
+.deco1 {
    text-decoration: none;
    color: aliceblue;
    border-left: 2px solid #ffffff;
-   padding-left: 3px;   
+   padding-left: 3px;
 }
 
 
@@ -74,30 +82,30 @@ header {
    -ms-flex-align: center;
 }
 
-.pbox{
+.pbox {
    text-align: center;
    color: antiquewhite;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: large;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
    .box {
       flex-direction: column;
       width: 90%;
 
    }
- }
+}
 
- @media (max-width: 600px){
+@media (max-width: 600px) {
    .imageref {
       flex-direction: column;
       width: 100%;
    }
- }
+}
 
 
- .txtref {
+.txtref {
    font-size: x-large;
    text-align: center;
    color: aliceblue;
@@ -107,21 +115,21 @@ header {
 
 
 .boxopiniones1 {
-  display:flex;
-  background-color: rgb(3, 3, 3);
- }
+   display: flex;
+   background-color: rgb(3, 3, 3);
+}
 
- .boxopiniones1 div{
+.boxopiniones1 div {
    background-color: red;
    margin: 7px;
    border: 1px solid white;
- }
+}
 
- @media (max-width: 900px){
-   .boxopiniones1{
+@media (max-width: 900px) {
+   .boxopiniones1 {
       flex-direction: column;
    }
- }
+}
 
 
 
@@ -147,11 +155,11 @@ header {
    margin-top: 4%;
    margin-bottom: 3%;
    font-size: 3rem;
-   
+
 }
 
-@media (max-width:600px){
-   .titulo{
+@media (max-width:600px) {
+   .titulo {
       font-size: 10px;
    }
 }
@@ -165,7 +173,7 @@ p {
    text-align: justify;
 }
 
-   
+
 
 * {
    margin: 0;
@@ -179,9 +187,9 @@ p {
    width: 90%;
    margin-left: 10px;
    align-items: center;
-  justify-content: space-between ;
-  
-   
+   justify-content: space-between;
+
+
 }
 
 
@@ -193,31 +201,30 @@ p {
    align-items: center;
    justify-content: space-around;
    margin-bottom: 5px;
-   
+
 }
 
-.ordentienda div{
+.ordentienda div {
    background-color: rgb(248, 0, 0);
    padding: 10px;
    border: 1px solid white;
    height: 250px;
    width: 250px;
    align-items: center;
-   justify-content: center;  
+   justify-content: center;
    margin-bottom: 10px;
-   
+
 }
 
-@media (max-width: 600px){
-   .ordentienda{
+@media (max-width: 600px) {
+   .ordentienda {
       flex-direction: column;
    }
- }
+}
 
-p{
+p {
    text-align: center;
 }
-      
 
 
 .uiama {
@@ -230,17 +237,16 @@ p{
    flex-wrap: nowrap;
    flex-wrap: wrap;
    justify-content: space-between;
-   justify-content: center;
-   align-items: center;
+  
 }
 
-@media (max-width: 600px){
-   .uiama{
+@media (max-width: 600px) {
+   .uiama {
       flex-direction: row;
       width: 100%;
       height: 100%;
    }
- }
+}
 
 .imageuiama {
    background-color: rgb(214, 15, 15, 0.911);
@@ -250,16 +256,18 @@ p{
    font-size: large;
    border: 1px solid white;
    align-items: center;
+   margin-left: 1%;
+ 
 
 }
 
-@media (max-width: 600px){
-   .imageuiama{
+@media (max-width: 600px) {
+   .imageuiama {
       flex-direction: column;
-      
+
 
    }
- }
+}
 
 
 .horarios {
@@ -345,7 +353,7 @@ p{
    margin-top: 1%;
 }
 
-.bi{
+.bi {
    color: black;
 }
 
@@ -371,6 +379,6 @@ footer {
    text-align: center;
 }
 
-.derechos{
+.derechos {
    text-align: center;
 }
